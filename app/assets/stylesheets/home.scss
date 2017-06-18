@@ -4,38 +4,10 @@ body {
   font: normal 35px/normal "Times New Roman", Times, serif !important;
 }
 
-/*h1 {
-  font: Times, serif !important;
-}*/
-
 .container-fluid {
   //border-radius: 5px;
   margin: 10px !important;
   padding: 0px !important;
-}
-
-header {
-  background-color: black;
-  height: 600px;
-}
-
-@keyframes animatedBackground {
-	from { background-position: 0 0; }
-	to { background-position: 100% 0; }
-}
-
-.header-background {
-  //background-image: image-url('clouds6.png');
-  // background-attachment: fixed;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // border-radius: 5px;
-  // //height: 800px;
-  // min-height: 100%;
-  //background-position: 0px 0px;
-	//background-repeat: repeat-x;
-
-	//animation: animatedBackground 5s linear infinite;
 }
 
 .row {

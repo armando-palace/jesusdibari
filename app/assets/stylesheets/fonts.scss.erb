@@ -1,0 +1,18 @@
+@font-face { font-family: QuickSandBold; src: url("<%= asset_path('Quicksand-Bold.otf') %>"); }
+@font-face { font-family: QuickSandItalic; src: url("<%= asset_path('Quicksand-Italic.otf') %>"); }
+@font-face { font-family: QuickSandLight; src: url("<%= asset_path('Quicksand-Light.otf') %>"); }
+@font-face { font-family: QuickSandRegular; src: url("<%= asset_path('Quicksand-Regular.otf') %>"); }
+
+h1, h4, button {
+  font-family: QuickSandRegular !important;
+}
+
+h1, h4 {
+  -webkit-transition: color .75s;
+  transition: color .75s;
+  
+  &:hover {
+    color: #00FFFF;
+    cursor: default;
+  }
+}
