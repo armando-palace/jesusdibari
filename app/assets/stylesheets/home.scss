@@ -1,0 +1,25 @@
+body {
+  background-color: #2A0A0A !important;
+  color: black !important;
+}
+
+.container-fluid {
+  //border-radius: 5px;
+  margin: 10px !important;
+  padding: 0px !important;
+}
+
+.header-background {
+  background-image: image-url('rails.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  //height: 800px;
+  min-height: 100%;
+}
+
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
