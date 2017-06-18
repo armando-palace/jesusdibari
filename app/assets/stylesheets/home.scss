@@ -1,7 +1,12 @@
 body {
-  background-color: #2A0A0A !important;
-  color: black !important;
+  background-color: #070719 !important;
+  color: white !important;
+  font: normal 35px/normal "Times New Roman", Times, serif !important;
 }
+
+/*h1 {
+  font: Times, serif !important;
+}*/
 
 .container-fluid {
   //border-radius: 5px;
@@ -9,14 +14,28 @@ body {
   padding: 0px !important;
 }
 
+header {
+  background-color: black;
+  height: 600px;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
 .header-background {
-  background-image: image-url('rails.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 5px;
-  //height: 800px;
-  min-height: 100%;
+  //background-image: image-url('clouds6.png');
+  // background-attachment: fixed;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // border-radius: 5px;
+  // //height: 800px;
+  // min-height: 100%;
+  //background-position: 0px 0px;
+	//background-repeat: repeat-x;
+
+	//animation: animatedBackground 5s linear infinite;
 }
 
 .row {
