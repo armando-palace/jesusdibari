@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jesusdibari</title>
+    <title>Jesés Di Bari</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,8 +9,14 @@
   </head>
 
   <body>
-  <div class="container-fluid">
-    <%= yield %>
-  </div>
+    <div class="container-fluid">
+      <header id="large-header" class="large-header">
+        <canvas id="demo-canvas" style="position: absolute;"></canvas>
+        <%= render "home/header/header" %>
+      </header>
+      <main>
+        <%= yield %>
+      </main>
+    </div>
   </body>
 </html>

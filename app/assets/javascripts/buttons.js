@@ -19,4 +19,25 @@ $(document).on("ready", function(){
       easing: 'easeOutQuint'
     });
 	});
+	
+	$(".intro").css("display", "none");
+	$(".button-whoIam").mouseenter(function(){
+	  $(".intro").finish();
+	  $(".intro2").css("display", "none")
+		$(".intro").toggle("fade", {
+      //direction: "left",
+      duration: 500,
+      easing: 'easeOutQuint'
+    });
+	});
+	
+	$(".intro2").css("display", "none");
+	$(".button-whatIdo").mouseenter(function(){
+	  $(".intro2").finish();
+	  $(".intro").css("display", "none")
+		$(".intro2").toggle("fade", {
+      duration: 500,
+      easing: 'easeOutQuint'
+    });
+	});
 });
