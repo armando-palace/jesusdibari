@@ -1,0 +1,13 @@
+body {
+  background-color: #070719 !important;
+  color: white !important;
+}
+
+main {
+  background-image: image-url('rails.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //height: 800px;
+  height: 100%;
+}

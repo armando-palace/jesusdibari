@@ -1,0 +1,79 @@
+.child-work {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-position: center;
+  background-size: cover;
+  transition: all .5s;
+}
+
+.parent-work {
+  border: solid 1px;
+  height: 220px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.parent-work:hover .child-work,
+.parent-work:focus .child-work {
+  transform: scale(1.2);
+}
+
+.child-work-overlay::before {
+  content: "";
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.parent-work:hover .child-work:before,
+.parent-work:focus .child-work:before {
+  display: block;
+}
+
+.parent-work:hover span,
+.parent-work:focus span, {
+  display: block;
+}
+
+.parent-work:hover .button-work,
+.parent-work:focus .button-work, {
+  display: block !important;
+}
+
+.span-work {
+  color: white; /* Good thing we set a fallback color! */
+  display: none;
+  padding: 25%;
+  position: absolute;
+}
+
+.button-work {
+  display: none !important;
+  padding: 25%;
+  position: absolute;
+}
+
+.work1 {
+  background-image: image-url("portfolio/blog.png");
+}
+
+.work2 {
+  background-image: image-url("portfolio/project.png");
+}
+
+.work3 {
+  background-image: image-url("portfolio/stocks.png");
+}
+
+.work4 {
+  background-image: image-url("portfolio/bank2.png");
+}
+
+.work5 {
+  background-image: image-url("portfolio/mundogames.png");
+}
