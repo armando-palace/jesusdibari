@@ -12,6 +12,12 @@
   height: 220px;
   overflow: hidden;
   width: 100%;
+  -webkit-transition: border-color .75s;
+  transition: border-color .75s;
+  
+  &:hover {
+    border-color: cyan;
+  }
 }
 
 .parent-work:hover .child-work,
@@ -52,12 +58,6 @@
   padding-left: 70px;
   position: absolute;
 }
-
-// .button-work {
-//   display: none !important;
-//   padding: 25%;
-//   position: absolute;
-// }
 
 .work1 {
   background-image: image-url("portfolio/blog.png");

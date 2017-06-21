@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jesés Di Bari</title>
+    <title>Jesús Di Bari</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -17,6 +17,11 @@
       <main>
         <%= yield %>
       </main>
+      <footer>
+        <button class="btn btn-info" id="scrollTop" title="Go to top">
+          <%= fa_icon("chevron-up") %>
+        </button>
+      </footer>
     </div>
   </body>
 </html>
