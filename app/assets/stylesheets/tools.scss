@@ -1,0 +1,20 @@
+.tools {
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 30px;
+}
+
+.tools-row .col-xs-3 {
+  bottom: 0;
+  position: relative;
+  -webkit-transition: bottom .25s;
+  transition: bottom .25s;
+  
+  &:hover {
+    bottom: 25px;
+  }
+}
+
+.tools-row .col-xs-3 img, {
+  width: 100%;
+}
