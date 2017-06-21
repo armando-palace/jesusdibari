@@ -1,5 +1,9 @@
 .certificates {
+  background-image: image-url("certificates/blue-wallpaper.jpg");
+  background-size: cover;
   padding-left: 45px;
   padding-right: 45px;
   padding-bottom: 30px;
+  border-top: solid 1px cyan;
+  box-shadow: 0 0 10px 1px cyan;
 }
