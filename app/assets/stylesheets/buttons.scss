@@ -231,3 +231,29 @@
     box-shadow: 5px 10px 5px -10px rgba(0,0,0,0.2);
   }
 }
+
+.button-work {
+  border: 1px solid rgba(0,255,255,1) !important;
+  border-radius: 0px !important;
+  color: rgba(0,255,255,1) !important;
+  //text-align: center;
+  background: rgba(0,0,0,0) !important;
+  -webkit-transition: color .25s cubic-bezier(0, 0, 0, 0), border-color .25s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: color .25s cubic-bezier(0, 0, 0, 0), border-color .25s cubic-bezier(0, 0, 0, 0);
+  -o-transition: color .25s cubic-bezier(0, 0, 0, 0), border-color .25s cubic-bezier(0, 0, 0, 0);
+  transition: color .25s cubic-bezier(0, 0, 0, 0), border-color .25s cubic-bezier(0, 0, 0, 0);
+}
+
+.button-work:hover {
+  color: white !important;
+  border-color: white !important;
+}
+
+.button-work:active {
+  color: cyan !important;
+}
+
+.close {
+  color: white !important;
+  opacity: 1 !important;
+}

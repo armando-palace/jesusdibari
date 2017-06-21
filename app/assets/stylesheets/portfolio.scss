@@ -48,15 +48,16 @@
 .span-work {
   color: white; /* Good thing we set a fallback color! */
   display: none;
-  padding: 25%;
+  padding-top: 70px;
+  padding-left: 70px;
   position: absolute;
 }
 
-.button-work {
-  display: none !important;
-  padding: 25%;
-  position: absolute;
-}
+// .button-work {
+//   display: none !important;
+//   padding: 25%;
+//   position: absolute;
+// }
 
 .work1 {
   background-image: image-url("portfolio/blog.png");
@@ -71,9 +72,9 @@
 }
 
 .work4 {
-  background-image: image-url("portfolio/bank2.png");
+  background-image: image-url("portfolio/mundogames.png");
 }
 
 .work5 {
-  background-image: image-url("portfolio/mundogames.png");
+  background-image: image-url("portfolio/bank2.png");
 }

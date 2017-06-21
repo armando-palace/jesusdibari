@@ -15,12 +15,13 @@
     <div class="parent-work">
       <div class="child-work child-work-overlay work1">
         <span class="span-work">
+          <button class="btn btn-info button-work" data-toggle="modal" data-target="#saasModal">
+            See description
+          </button>
+          <br>
           <%= link_to "Go to project page", 'https://alpha-blog-di-bari.herokuapp.com/articles',
             target: :_blank %>
         </span>
-        <!--<button class="btn btn-danger button-work" data-toggle="modal" data-target="#saasModal">-->
-        <!--  See description-->
-        <!--</button>-->
       </div>
     </div>
   </div>
@@ -48,3 +49,39 @@
     </div>
   </div>
 </div>
+
+<div class="row" align="center">
+  <div class="col-xs-4">
+    <h2>MUNDO GAMES</h2>
+  </div>
+  <div class="col-xs-4">
+    <h2>BANK MANAGEMENT</h2>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-4">
+    <div class="parent-work">
+      <div class="child-work child-work-overlay work4">
+        <span class="span-work">
+          <%= link_to "Go to project page", 'https://mundo-games.herokuapp.com/products',
+            target: :_blank %>
+        </span>
+        <!--<button class="btn btn-danger button-work" data-toggle="modal" data-target="#saasModal">-->
+        <!--  See description-->
+        <!--</button>-->
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-4">
+    <div class="parent-work">
+      <div class="child-work child-work-overlay work5">
+        <span class="span-work">
+          See description
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= render "home/modals" %>
