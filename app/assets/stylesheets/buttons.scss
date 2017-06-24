@@ -115,7 +115,7 @@
   top: 0;
   -webkit-transition: top .25s, box-shadow .25s, color .75s, border-color .75s;
   transition: top .25s, box-shadow .25s, color .75s, border-color .75s;
-  &:hover {
+  &:focus {
     border-color: white;
     color: #00FFFF;
     top: 10px;

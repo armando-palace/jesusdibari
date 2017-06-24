@@ -30,5 +30,11 @@ $(document).on("ready", function(){
         scrollTop: 0
       }, 700);
     });
-  }
+  };
+  
+  $(".button-portfolio").click(function (){
+    $('html, body').animate({
+      scrollTop: $(".portfolio").offset().top
+    }, 1000);
+  });
 });
