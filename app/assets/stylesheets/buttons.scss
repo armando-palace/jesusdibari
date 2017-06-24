@@ -55,6 +55,10 @@
   }
 }
 
+.link-no-header {
+  margin-top: 10px;
+}
+
 .git, .cssf, .db, .api {
   bottom: 0;
   position: relative;
@@ -105,7 +109,6 @@
   -webkit-transition: none;
   -moz-transition: none;
   -o-transition: none;
-  transition: none;
   -webkit-transform: none;
   transform: none;
   -webkit-transform-origin: 50% 50% 0;

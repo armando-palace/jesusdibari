@@ -103,7 +103,11 @@
   </div>
   <div align="center" class="col-xs-4">
     <%= link_to image_tag("portfolio/upwork.png", class: "upwork-title"), "https://www.upwork.com/", target: :_blank %>
-    <h2>Hire me!</h2>
+    <h2>
+      <%= link_to "Hire me!",
+        "https://www.upwork.com/signup/create-account/client_contact_freelancer?ciphertext=~01266cd66664792cfe&BYOC",
+        target: :_blank %>
+    </h2>
     <h4>
       Contact me if you want a web developer.
       <br>
@@ -112,11 +116,8 @@
       <%= fa_icon "star-o" %> RISING TALENT <%= fa_icon "star-o" %>
       <br>
       You can check my profile out
-      <%#= link_to "here", "https://www.upwork.com/o/profiles/users/_~01266cd66664792cfe/",
+      <%= link_to "here", "https://www.upwork.com/o/profiles/users/_~01266cd66664792cfe/",
         target: :_blank %>
-      <%= link_to "here",
-        "https://www.upwork.com/signup/create-account/client_contact_freelancer?ciphertext=~01266cd66664792cfe&BYOC",
-        target: :_blank %>.
     </h4>
   </div>
 </div>

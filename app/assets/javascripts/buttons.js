@@ -18,6 +18,16 @@ $(document).on("ready", function(){
       duration: 500,
       easing: 'easeOutQuint'
     });
+    $(".link-no-header").hide("fade", {
+      direction: "right",
+      duration: 500,
+      easing: 'easeOutQuint'
+    });
+    $(".link-no-header-2").hide("fade", {
+      direction: "right",
+      duration: 500,
+      easing: 'easeOutQuint'
+    });
 	});
 	
 	$(".intro").css("display", "none");
@@ -39,5 +49,10 @@ $(document).on("ready", function(){
       duration: 500,
       easing: 'easeOutQuint'
     });
+	});
+	
+	$(".link-no-header").mouseenter(function() {
+	  $(this).hide();
+	  $(".link-no-header-2").fadeIn(250);
 	});
 });
